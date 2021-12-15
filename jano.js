@@ -11,13 +11,13 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
   console.log('Server Started.');
 });
-client.login("ODY3MjA4MzU5MzM3Mzk0MTk0.YPdwuA.3A7bYAjbwYc9XPwZIppd6FinqxM");
-const prefix = "+";
+client.login("OTE3MDk2Mjk3NzUwNzQxMDIz.YazufA.pO_x9XB6l_i3mPTJSb9H6D7Z9Sc");
+const prefix = "!";
 ////////////////////////
 client.on("message", message => {
-if (message.content === prefix +"help") {
+if (message.content === prefix +"!help") {
 const embed = new Discord.MessageEmbed()
-.setColor("BLACK")
+.setColor("03")
 .setDescription(` 
 > **General Commands**
 > \`${prefix}avatar\`
